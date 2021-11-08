@@ -24,6 +24,7 @@ int main()
     std::thread thread(Printmessage, "Message from a child thread.");
 
     Printmessage("message from a main thread");
+    Printmessage("hello");
     thread.join();
 
     return 0;
