@@ -25,6 +25,7 @@ int main()
 
     Printmessage("message from a main thread");
     Printmessage("hello");
+    Printmessage("hello22");
     thread.join();
 
     return 0;
